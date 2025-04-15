@@ -11,7 +11,7 @@ export default async function Dashboard() {
 
   return (
     <div className="flex flex-col items-center justify-center h-svh">
-      <h1>Protected Dashboard</h1>
+      <h1 className="text-3xl font-bold">Protected Dashboard</h1>
       <p>
         {session?.user?.email
           ? session?.user?.email
